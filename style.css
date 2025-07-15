@@ -151,6 +151,28 @@ a:hover {
   text-decoration: none;
 }
 
+.pub-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.link-box {
+  display: inline-block;
+  padding: 6px 12px;
+  background-color: #8b1412;
+  color: #fff;
+  font-size: 0.85em;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.link-box:hover {
+  background-color: #580d0c;
+}
+
 .pub-venue {
   font-size: 1.0em;
   color: #666;
