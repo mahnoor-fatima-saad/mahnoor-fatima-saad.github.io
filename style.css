@@ -37,8 +37,8 @@
 }
 .urdu-name {
   font-family: "Noto Nastaliq Urdu", serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
+  font-optical-sizing: 224;
+  font-weight: 700;
   font-style: normal;
 }
 .sidebar p {
@@ -120,8 +120,8 @@ a:hover {
 }
 
 .pub-figure img {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 150px;
   object-fit: cover;
   border-radius: 6px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.15);
