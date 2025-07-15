@@ -1,64 +1,99 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: white;
-  color: #333;
-}
-
-a {
-  color: #2a5db0;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
 .container {
-  display: flex;
-  flex-direction: row;
-  max-width: 200px;
-  margin: 40px auto;
-  padding: 20px;
-  gap: 40px;
-}
+    display: flex;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    gap: 40px;
+    padding: 20px;
+    box-sizing: border-box;
+    background: #f9f9f9;
+  }
 
-.sidebar {
-  width: 250px;
-  flex-shrink: 0;
-  text-align: center;
-}
+  /* Left sidebar column */
+  .sidebar {
+    flex: 0 0 280px;
+    background-color: #fff;
+    padding: 30px 20px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    text-align: center;
+  }
 
-.profile-pic {
-  width: 50%;
-  max-width: 50;
-  border-radius: 10px;
-  margin-bottom: 15px;
-}
+  .profile-pic {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 3px solid #007ACC;
+  }
 
-.sidebar-links p {
-  margin: 6px 0;
-}
+  .sidebar h2 {
+    margin: 0 0 5px;
+    font-size: 1.6em;
+    color: #007ACC;
+  }
 
-.main {
-  flex-grow: 1;
-}
+  .sidebar p {
+    margin: 6px 0;
+    color: #333;
+    font-size: 1em;
+    line-height: 1.4;
+  }
 
-h2 {
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 5px;
-  margin-top: 30px;
-}
+  .sidebar a {
+    color: #007ACC;
+    text-decoration: none;
+  }
 
-section {
-  margin-bottom: 30px;
-}
+  .sidebar a:hover {
+    text-decoration: underline;
+  }
 
-ul {
-  padding-left: 20px;
-}
+  .sidebar-links p {
+    margin: 10px 0;
+  }
 
-ul li {
-  margin-bottom: 10px;
-}
+  /* Right main content column */
+  .main {
+    flex: 1;
+    background-color: #fff;
+    padding: 30px 30px 30px 40px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.1);
+    border-radius: 8px;
+  }
+
+  section {
+    margin-bottom: 30px;
+  }
+
+  section h2 {
+    color: #007ACC;
+    border-bottom: 2px solid #007ACC;
+    padding-bottom: 6px;
+    margin-bottom: 15px;
+    font-weight: 700;
+  }
+
+  section p, section ul {
+    font-size: 1em;
+    color: #444;
+    line-height: 1.5;
+  }
+
+  section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+
+  section ul li {
+    margin-bottom: 8px;
+  }
+
+  a {
+    color: #007ACC;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
