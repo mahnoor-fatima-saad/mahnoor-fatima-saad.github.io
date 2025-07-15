@@ -36,12 +36,8 @@
   color: #1c222b;
 }
 .urdu-name {
-  font-size: 10.6em;
-  color: #444;
-  direction: rtl;
-  font-family: 'Noto Nastaliq Urdu', 'Segoe UI', 'Arial', sans-serif;
+  font-family: 'Noto Naskh Urdu', serif;
   font-weight: bold;
-  margin-bottom: 20px;
 }
 .sidebar p {
   margin: 6px 0;
@@ -123,7 +119,7 @@ a:hover {
 
 .pub-figure img {
   width: 300px;
-  height: 150px;
+  height: 300px;
   object-fit: cover;
   border-radius: 6px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.15);
@@ -135,25 +131,25 @@ a:hover {
 
 .pub-title {
   font-weight: bold;
-  font-size: 1.1em;
+  font-size: 1.4em;
   margin-bottom: 6px;
   color: #0f1216;
 }
 
 .pub-authors {
-  font-size: 0.9em;
+  font-size: 1.0em;
   color: #555;
   margin-bottom: 6px;
 }
 
 .pub-link a {
-  font-size: 0.9em;
+  font-size: 1.0em;
   color: #8b1412;
   text-decoration: none;
 }
 
 .pub-venue {
-  font-size: 0.9em;
+  font-size: 1.0em;
   color: #666;
   font-style: italic;
   margin-bottom: 6px;
