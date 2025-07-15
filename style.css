@@ -10,7 +10,7 @@
 
 /* Left sidebar column */
 .sidebar {
-  flex: 0 0 600px;
+  flex: 0 0 500px;
   background-color: #fff;
   padding: 30px 20px;
   box-shadow: 0 0 12px rgba(0,0,0,0.1);
@@ -19,8 +19,8 @@
 }
 
 .profile-pic {
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
   object-fit: cover;
   border-radius: 8px; 
   margin-bottom: 20px;
@@ -41,7 +41,7 @@
 }
 
 .sidebar a {
-  color: #1c222b;
+  color: #1a2875;
   text-decoration: none;
 }
 
@@ -90,10 +90,57 @@ section ul li {
 }
 
 a {
-  color: #1c222b;
+  color: #b30f0c;
   text-decoration: none;
 }
 
 a:hover {
+  text-decoration: underline;
+}
+.publication-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.publication-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 25px;
+  gap: 15px;
+}
+
+.pub-figure img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.pub-details {
+  flex: 1;
+}
+
+.pub-title {
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-bottom: 6px;
+  color: #1c222b;
+}
+
+.pub-authors {
+  font-size: 0.9em;
+  color: #555;
+  margin-bottom: 6px;
+}
+
+.pub-link a {
+  font-size: 0.9em;
+  color: #007ACC;
+  text-decoration: none;
+}
+
+.pub-link a:hover {
   text-decoration: underline;
 }
