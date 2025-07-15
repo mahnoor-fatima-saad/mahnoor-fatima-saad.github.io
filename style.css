@@ -36,11 +36,11 @@
   color: #1c222b;
 }
 .urdu-name {
-  font-size: 1.1em;
+  font-size: 3.6em;
   color: #444;
   direction: rtl;
   font-family: 'Noto Nastaliq Urdu', 'Segoe UI', 'Arial', sans-serif;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 .sidebar p {
   margin: 6px 0;
