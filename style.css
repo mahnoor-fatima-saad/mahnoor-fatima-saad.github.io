@@ -1,0 +1,63 @@
+body {
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #000;
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+}
+
+.profile {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  gap: 20px;
+}
+
+.bio {
+  flex: 2;
+}
+
+.photo {
+  flex: 1;
+  text-align: center;
+}
+
+.photo img {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 10px;
+}
+
+.credit {
+  font-size: 0.8em;
+  color: #666;
+}
+
+.news {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.news li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #2a5db0;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
