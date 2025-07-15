@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>How Would It Sound?</title>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    body {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 40px 20px;
+    background-color: #fff;
+    color: #333;
+    font-size: 20px; /* increased base font size */
+    }
+
+    h1 {
+    font-size: 56px; /* bigger headers */
+    margin-bottom: 25px;
+    }
+
+    .authors {
+    font-size: 36px; /* bigger author text */
+    margin-bottom: 15px;
+    line-height: 1.6;
+    }
+    .authors a:not(:last-child) {
+    margin-right: 40px; /* or whatever space you want */
+    }
+    .authors a {
+    color: #007bff;
+    text-decoration: none;
+    }
+
+    .affiliations {
+    font-size: 32px; /* bigger affiliations */
+    color: #444;
+    margin-bottom: 25px;
+    }
+
+    .conference {
+    font-size: 32px; /* bigger conference */
+    color: #1a73e8;
+    margin-bottom: 35px;
+    }
+
+    .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 25px; /* bigger gap */
+    flex-wrap: wrap;
+    }
+
+    .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px; /* bigger gap between icon and text */
+    background-color: #333;
+    color: #fff;
+    padding: 16px 28px; /* bigger padding */
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 20px; /* bigger button font */
+    text-decoration: none;
+    transition: background 0.3s;
+    }
+
+    .btn:hover {
+    background-color: #555;
+    }
+
+    .btn img {
+    width: 26px; /* bigger icon */
+    height: 26px;
+    }
+    p {
+    font-size: 24px;          /* comfortable reading size */
+    line-height: 1.6;         /* good spacing between lines */
+    color: #444;              /* slightly lighter than black for easier reading */
+    max-width: 1500px;         /* limits line length for readability */
+    margin: 16px auto;        /* vertical spacing + center horizontally */
+    text-align: justify;         /* left-aligned text */
+    font-weight: 400;         /* normal weight */
+    font-family: 'Inter', sans-serif; /* consistent font with your site */
+    }
+  </style>
+</head>
+<body>
+  <h1>How Would It Sound? <br>Material-Controlled Multimodal Acoustic Profile Generation for Indoor Scenes</h1>
+
+  <div class="authors">
+    <a href="#">Mahnoor Fatima Saad</a>    
+    <a href="https://users.cs.utah.edu/~ziad/">Ziad Al-Halah</a> 
+  </div>
+
+  <div class="affiliations">
+    University of Utah 
+  </div>
+
+  <div class="conference">
+    <a href="#" style="text-decoration:none; color:#1a73e8;">ICCV 2025</a>
+  </div>
+
+  <div class="buttons">
+    <a class="btn" href="#"><img src="https://img.icons8.com/ios-filled/50/ffffff/document--v1.png"/>Paper</a>
+    <a class="btn" href="#"><img src="https://img.icons8.com/ios-filled/50/ffffff/source-code.png"/>Code</a>
+    <a class="btn" href="#"><img src="https://img.icons8.com/ios-filled/50/ffffff/database.png"/>Data</a>
+  </div>
+  
+  <div style="margin-top: 40px;">
+    <img src="/assets/images/M_CAPA/concept_diagram.png" alt="concept" style="max-width: 30%; height: auto; border-radius: 12px;">
+  </div>
+  <section style="margin-top: 60px; text-align: center;">
+    <h2 style="font-size: 36px; color: #333; font-weight: 700;">Abstract</h2>
+    <p>How would the sound in a studio change with a carpeted floor and acoustic tiles on the walls? We introduce the task of material-controlled acoustic profile generation, where, given an indoor scene with specific audio-visual characteristics, the goal is to generate a target acoustic profile based on a user-defined material configuration at inference time. We address this task with a novel encoder-decoder approach that encodes the scene’s key properties from an audio-visual observation and generates the target Room Impulse Response (RIR) conditioned on the material specifications provided by the user. Our model enables the generation of diverse RIRs based on various material configurations defined dynamically at inference time. To support this task, we create a new benchmark, the Acoustic Wonderland Dataset, designed for developing and evaluating material-aware RIR prediction methods under diverse and challenging settings. Our results demonstrate that the proposed model effectively encodes material information and generates high-fidelity RIRs, outperforming several baselines and state-of-the-art methods. Code and dataset will be released soon.</p>
+  </section>
+  <section style="margin-top: 60px; text-align: center;">
+    <h2 style="font-size: 36px; color: #333; font-weight: 700;">Acoustic Wonderland Dataset</h2>
+    <img src="/assets/images/M_CAPA/dataset_examples.png" alt="dataset example" style="max-width: 30%; height: auto; border-radius: 12px;">
+  </section>
+  <section style="margin-top: 60px; text-align: center;">
+    <h2 style="font-size: 36px; color: #333; font-weight: 700;">M-CAPA Model</h2>
+    <img src="/assets/images/M_CAPA/model_overview.png" alt="model_overview" style="max-width: 50%; height: auto; border-radius: 12px;">
+  </section>
+  <section style="margin-top: 60px; text-align: center;">
+    <h2 style="font-size: 36px; color: #333; font-weight: 700;">Qualitative Results</h2>
+    
+    <!-- Example embedded video: -->
+    <video width="50%" height="auto" controls style="border-radius: 12px;">
+        <source src="/assets/images/M_CAPA/Presentation_final-med.mp4" type="video/mp4">
+    </video>
+</section>
+</body>
+</html>
