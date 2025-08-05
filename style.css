@@ -187,7 +187,6 @@ p {
   font-size: 24px;          /* comfortable reading size */
   line-height: 1.6;         /* good spacing between lines */
   color: #444;              /* slightly lighter than black for easier reading */
-  max-width: 1500px;         /* limits line length for readability */
   margin: 16px auto;        /* vertical spacing + center horizontally */
   text-align: justify;         /* left-aligned text */
   font-weight: 400;         /* normal weight */
