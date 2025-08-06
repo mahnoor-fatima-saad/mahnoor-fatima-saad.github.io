@@ -47,6 +47,7 @@
   color: #333;
   font-size: 1em;
   line-height: 1.4;
+  text-align: center;
 }
 
 .sidebar a {
@@ -60,6 +61,7 @@
 
 .sidebar-links p {
   margin: 10px 0;
+  text-align: center;
 }
 
 /* Right main content column */
