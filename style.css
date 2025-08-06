@@ -73,10 +73,13 @@
   border-radius: 8px;
 }
 
+
 section {
   margin-bottom: 30px;
 }
-
+.main section p {
+  font-size: 20px; /* or adjust to what looks best, like 22px or 24px */
+}
 section h2 {
   color: #1c222b;
   border-bottom: 2px solid #1c222b;
