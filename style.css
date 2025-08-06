@@ -49,6 +49,9 @@
   line-height: 1.4;
   text-align: center;
 }
+.sidebar * {
+  text-align: center;
+}
 
 .sidebar a {
   color: #8b1412;
