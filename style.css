@@ -147,19 +147,19 @@ a:hover {
 
 .pub-title {
   font-weight: bold;
-  font-size: 1.4em;
+  font-size: 1.75em;
   margin-bottom: 6px;
   color: #0f1216;
 }
 
 .pub-authors {
-  font-size: 1.0em;
+  font-size: 1.35em;
   color: #555;
   margin-bottom: 6px;
 }
 
 .pub-link a {
-  font-size: 1.0em;
+  font-size: 1.2em;
   color: #8b1412;
   text-decoration: none;
 }
@@ -187,7 +187,7 @@ a:hover {
 }
 
 .pub-venue {
-  font-size: 1.0em;
+  font-size: 1.2em;
   color: #666;
   font-style: italic;
   margin-bottom: 6px;
