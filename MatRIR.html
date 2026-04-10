@@ -88,7 +88,7 @@
   </style>
 </head>
 <body>
-  <h1>How Would It Sound? <br>Material-Controlled Multimodal Acoustic Profile Generation for Indoor Scenes</h1>
+  <h1>Materealistic RIR <br>Material Conditioned Realistic RIR Generation</h1>
 
   <div class="authors">
     <a href="https://mahnoor-fatima-saad.github.io/">Mahnoor Fatima Saad</a> 
@@ -104,14 +104,14 @@
   </div>
 
   <div class="conference">
-    <a href="#" style="text-decoration:none; color:#1a73e8;">ICCV 2025</a>
+    <a href="#" style="text-decoration:none; color:#1a73e8;">CVPR Findings 2026</a>
   </div>
 
   <div class="buttons">
-    <a class="btn" href="https://openaccess.thecvf.com/content/ICCV2025/papers/Saad_How_Would_It_Sound_Material-Controlled_Multimodal_Acoustic_Profile_Generation_for_ICCV_2025_paper.pdf"><img src="https://img.icons8.com/ios-filled/50/ffffff/document--v1.png"/>Paper</a>
-    <a class="btn" href="https://github.com/mahnoor-fatima-saad/M-CAPA"><img src="https://img.icons8.com/ios-filled/50/ffffff/source-code.png"/>Code</a>
-    <a class="btn" href="https://github.com/mahnoor-fatima-saad/M-CAPA"><img src="https://img.icons8.com/ios-filled/50/ffffff/database.png"/>Data</a>
-    <a class="btn" href="assets/bibtex/mcapa.txt"><img src="https://img.icons8.com/ios-filled/50/ffffff/quote.png"/>BibTeX</a>
+    <a class="btn" href="https://github.com/mahnoor-fatima-saad/coming_soon.html"><img src="https://img.icons8.com/ios-filled/50/ffffff/document--v1.png"/>Paper</a>
+    <a class="btn" href="https://github.com/mahnoor-fatima-saad/coming_soon.html"><img src="https://img.icons8.com/ios-filled/50/ffffff/source-code.png"/>Code</a>
+    <a class="btn" href="https://github.com/mahnoor-fatima-saad/coming_soon.html"><img src="https://img.icons8.com/ios-filled/50/ffffff/database.png"/>Data</a>
+    <a class="btn" href="https://github.com/mahnoor-fatima-saad/coming_soon.html"><img src="https://img.icons8.com/ios-filled/50/ffffff/quote.png"/>BibTeX</a>
   </div>
   
   <div style="margin-top: 40px;">
@@ -119,17 +119,12 @@
   </div>
   <section style="margin-top: 60px; text-align: center;">
     <h2 style="font-size: 36px; color: #333; font-weight: 700;">Abstract</h2>
-    <p>How would the sound in a studio change with a carpeted floor and acoustic tiles on the walls? We introduce the task of material-controlled acoustic profile generation, where, given an indoor scene with specific audio-visual characteristics, the goal is to generate a target acoustic profile based on a user-defined material configuration at inference time. We address this task with a novel encoder-decoder approach that encodes the scene’s key properties from an audio-visual observation and generates the target Room Impulse Response (RIR) conditioned on the material specifications provided by the user. Our model enables the generation of diverse RIRs based on various material configurations defined dynamically at inference time. To support this task, we create a new benchmark, the Acoustic Wonderland Dataset, designed for developing and evaluating material-aware RIR prediction methods under diverse and challenging settings. Our results demonstrate that the proposed model effectively encodes material information and generates high-fidelity RIRs, outperforming several baselines and state-of-the-art methods. Code and dataset will be released soon.</p>
+    <p>Code and dataset will be released soon.</p>
   </section>
   <section style="margin-top: 60px; text-align: center;">
-    <h2 style="font-size: 36px; color: #333; font-weight: 700;">Acoustic Wonderland Dataset</h2>
-    <img src="/assets/images/M_CAPA/dataset_examples.png" alt="dataset example" style="width: 100%; max-width: 800px; min-width: 300px; height: auto; border-radius: 12px;">
-    <p>Each sample in the Acoustic Wonderland dataset contains audio-visual observations from a 3D scene. Each datapoint consists of RGB and semantic scene observations. Every semantic object is mapped to a material, represented in the material mask. Every material mapping of the scene is captured acoustically in the binaural RIR. </p>
-  </section>
-  <section style="margin-top: 60px; text-align: center;">
-    <h2 style="font-size: 36px; color: #333; font-weight: 700;">M-CAPA Model</h2>
+    <h2 style="font-size: 36px; color: #333; font-weight: 700;">MatRIR Model</h2>
     <img src="/assets/images/M_CAPA/model_overview.png" alt="model_overview" style="width: 100%; max-width: 1200px; min-width: 300px; height: auto; border-radius: 12px;">
-    <p>Given an audio-visual observation from the scene, the model encodes key visual and acoustic properties using a multimodal scene encoder. For a given arbitrary target material assignment, the model then generates a weighting and residual to adjust source audio with a new reverbeation pattern compatible with new material assignment - thereby predicting the target RIR</p>
+    <p>xyz</p>
   </section>
   <section style="margin-top: 60px; text-align: center;">
     <h2 style="font-size: 36px; color: #333; font-weight: 700;">Qualitative Results</h2>
